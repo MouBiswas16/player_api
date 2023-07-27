@@ -1,0 +1,92 @@
+GET http://localhost:4000/health
+
+###
+
+POST http://localhost:4000
+Content-Type: application/json
+
+{
+    "name": "Tamim",
+    "country": "BD",
+    "rank": 2
+}
+
+###
+
+GET http://localhost:4000
+
+###
+
+GET http://localhost:4000/vnolIVZRk 
+
+###
+PATCH http://localhost:4000/ur06lCI7g
+Content-Type: application/json
+
+{
+    "name": "Mashrafe Bin Mortaza"
+}
+
+###
+
+PUT http://localhost:4000/ur06lCI7g
+
+Content-Type: application/json
+
+{
+    "name": "Masrafi",
+    "country": "BD",
+    "rank": 20
+}
+
+###
+PUT http://localhost:4000/Ze3np1JjV
+
+Content-Type: application/json
+
+{
+    "name": "Shakib",
+    "country": "BD",
+    "rank": 2
+}
+
+###
+
+PATCH http://localhost:4000/eJrVH1iLo
+
+Content-Type: application/json
+
+{
+    "name": "Shakib",
+}
+
+###
+
+
+PATCH http://localhost:4000/vnolIVZRk
+
+Content-Type: application/json
+
+{
+    "rank": "3",
+}
+
+###
+
+POST  http://localhost:4000/
+
+Content-Type: application/json
+
+{
+    "name": "Shakib",
+    "country": "BD",
+    "rank": 3
+}
+
+###
+
+DELETE http://localhost:4000/Y0A4NeT23
+
+###
+
+GET http://api.github.com/users/MouBiswas16
